@@ -1,0 +1,14 @@
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/bin/Debug/net8.0/myFirstProject
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/bin/Debug/net8.0/myFirstProject.deps.json
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/bin/Debug/net8.0/myFirstProject.runtimeconfig.json
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/bin/Debug/net8.0/myFirstProject.dll
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/bin/Debug/net8.0/myFirstProject.pdb
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.AssemblyInfoInputs.cache
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.AssemblyInfo.cs
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.csproj.CoreCompileInputs.cache
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.dll
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/refint/myFirstProject.dll
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.pdb
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/myFirstProject.genruntimeconfig.cache
+/home/ramadan/Documents/Projects/CSharp/myFirstProject/obj/Debug/net8.0/ref/myFirstProject.dll
