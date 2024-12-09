@@ -1,0 +1,44 @@
+@model ContactoModel
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            @{
+                ViewData["Title"] = "Cadastrar Contactos";
+            }
+        </title>
+    </head>
+    <body>
+        <div class="text-center">
+            <h1 class="display-4">Cadastrar contacto</h1>
+            <hr>
+        </div>
+
+        <form asp-controller="Contacto" asp-action="Criar" method="post">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do contacto">
+                @Html.ValidationMessageFor(x => x.Nome)
+            </div> <br>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" asp-for="Email" class="form-control" placeholder="Digite o e-mail do contacto">
+                @Html.ValidationMessageFor(x => x.Email)
+            </div><br>
+
+            <div class="form-group">
+                <label for="celular">Celular</label>
+                <input type="text" asp-for="Celular" class="form-control" placeholder="Digite o celular do contacto">
+                @Html.ValidationMessageFor(x => x.Celular)
+            </div><br><br>
+            <div>
+                <button type="submit" class="btn btn-primary w-100">Adicionar</button>
+                <button type="reset" class="btn btn-info w-100">Limpar</button>
+                <a role="button" class="btn btn-secondary w-100" asp-controller="Contacto" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </body>
+</html>

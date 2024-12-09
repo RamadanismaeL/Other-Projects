@@ -1,0 +1,17 @@
+mysql> tee DB_SistemaContatos.txt
+mysql> ^C
+mysql> exit
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| DB_SistemaContatos |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> notee;
+mysql> notee;
