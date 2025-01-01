@@ -1,0 +1,21 @@
+<!-- src/app/components/contact-list/contact-list.component.html -->
+
+<h2>Contact List</h2>
+
+<div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+<ul *ngIf="contacts.length > 0; else noContacts">
+  <li *ngFor="let contact of contacts">
+    <span>Name: </span>
+    <strong>{{ contact.name }}</strong>
+    <p>LastName: {{ contact.lastName }}</p>
+    <p>Email: {{ contact.email }}</p>
+    <p>Phone: {{ contact.phone }}</p>
+    <button (click)="deleteContact(contact.id)">Delete</button>
+    <hr style="width: 400px; margin-left: 0;">
+  </li>
+</ul>
+
+<ng-template #noContacts>
+  <p>No contacts available.</p>
+</ng-template>
