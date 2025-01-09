@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/ControleDeContactos.csproj": {}
+    "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/ControleDeContactos.csproj": {}
   },
   "projects": {
-    "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/ControleDeContactos.csproj": {
+    "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/ControleDeContactos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/ControleDeContactos.csproj",
+        "projectUniqueName": "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/ControleDeContactos.csproj",
         "projectName": "ControleDeContactos",
-        "projectPath": "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/ControleDeContactos.csproj",
+        "projectPath": "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/ControleDeContactos.csproj",
         "packagesPath": "/home/ramadan/.nuget/packages/",
-        "outputPath": "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/obj/",
+        "outputPath": "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ramadan/.nuget/NuGet/NuGet.Config"

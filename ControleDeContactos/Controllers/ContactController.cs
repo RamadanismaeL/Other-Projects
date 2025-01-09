@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeContactos.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ContactController : ControllerBase, IContactController

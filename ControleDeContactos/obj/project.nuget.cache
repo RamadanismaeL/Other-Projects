@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4+r1nJIz6OQgHXsVQDg8x5bAGmyDoO6kwNRB+MNnbo99OYAxSEwzW1xcq6YHKF+1+XyaLEcbC0LTou3XK/2EEw==",
+  "dgSpecHash": "7wxMm2rRDSH/Mi/3MYKgZY6BFzh8v9smSjgl/Isc7TmGnb13sT09QpcW7JHDVqsw9H4OJbg5ggNiC7KQ6wvgQQ==",
   "success": true,
-  "projectFilePath": "/home/ramadan/Documents/Projects/CSharp/FB/Gym/ControleDeContactos/ControleDeContactos.csproj",
+  "projectFilePath": "/home/ramadan/Documents/Projects/github-OtherProjects/ControleDeContactos/ControleDeContactos.csproj",
   "expectedPackageFiles": [
     "/home/ramadan/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/ramadan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
