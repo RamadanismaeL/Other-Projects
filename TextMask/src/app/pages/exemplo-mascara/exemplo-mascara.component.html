@@ -1,0 +1,19 @@
+<div>
+  <span style="font-weight: bold;">CPF :</span>
+  <span>{{cpf | formatCpfCnpj:'cpf'}}</span>
+</div>
+<hr>
+<div>
+  <span style="font-weight: bold;">CNPJ :</span>
+  <span>{{cnpj | formatCpfCnpj:'cnpj'}}</span>
+</div>
+<hr>
+<div>
+  <span style="font-weight: bold;">Caixa alta :</span>
+  <span>{{text | toUpper}}</span>
+</div>
+<hr>
+<div>
+  <span style="font-weight: bold;">Cell.:</span>
+  <span>(+258) {{cell | formatCpfCnpj:'moz'}}</span>
+</div>
