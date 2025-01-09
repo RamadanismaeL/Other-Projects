@@ -1,0 +1,30 @@
+.c-plane {
+  background-size: contain;
+  height: 10rem;
+  width: 13rem;
+  position: absolute;
+  top: 40%;
+  &:hover {
+    height: 11rem;
+    width: 14rem;
+  }
+  animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(-13vw, 0);
+  }
+  20% {
+    transform: translate(20vw, 10vw);
+  }
+  50% {
+    transform: translate(200%, -80px);
+  }
+  75% {
+    transform: translate(75vw, -100px);
+  }
+  100% {
+    transform: translateX(calc(100vw - 13px));
+  }
+}

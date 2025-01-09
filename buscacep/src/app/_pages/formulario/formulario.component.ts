@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ViacepService } from '../../_services/viacep.service';
+import { CurrencyMaskModule } from 'ng2-currency-mask'
 
 @Component({
   selector: 'app-formulario',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CurrencyMaskModule],
   templateUrl: './formulario.component.html',
   styleUrl: './formulario.component.scss'
 })
@@ -24,10 +25,11 @@ export class FormularioComponent implements OnInit {
   {
     this.form = this.fb.group({
       cep: ['', [Validators.required]],
-      logradouro: ['', [Validators.required]],
-      estado: ['', [Validators.required]],
-      bairro: ['', [Validators.required]],
-      cidade: ['', [Validators.required]]
+      logradouro: [{value: '', disabled: true}],
+      estado: [{value: '', disabled: true}],
+      bairro: [{value: '', disabled: true}],
+      cidade: [{value: '', disabled: true}],
+      frete: ['', [Validators.required]]
     })
   }
 
@@ -58,4 +60,6 @@ export class FormularioComponent implements OnInit {
       }
     })
   }
+
+  submit(){ console.log(this.form.value) }
 }
