@@ -1,0 +1,19 @@
+<button (click)="exibir()">Exibir gráfico 1</button>
+<div
+  *ngIf="exibeGrafico"
+  echarts [options]="chartOption"
+  class="bar-chart"
+></div>
+
+<button (click)="exibir2()">Exibir gráfico 2</button>
+@if(exibeGrafico2)
+{
+  <div echarts [options]="chartOption2" class="demo-chart" style="height: 400px;"></div>
+  <div echarts [options]="chartOption3" class="bar-chart"></div>
+}
+@else
+{ <h1>Hey, what's up??</h1> }
+
+
+<div echarts [options]="chartOption4" class="bar-chart"></div>
+<div echarts [options]="chartOption5" class="bar-chart"></div>

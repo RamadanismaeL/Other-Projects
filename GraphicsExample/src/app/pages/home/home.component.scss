@@ -1,0 +1,20 @@
+.bar-chart {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bar-chart .echarts-bar {
+  animation: slideUp 2s ease-in-out forwards; /* Aumentado para 2s e suavizado com ease-in-out */
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
